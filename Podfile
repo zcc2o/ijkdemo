@@ -1,0 +1,2 @@
+target 'IJKDemo'
+pod ‘AFNetworking’
