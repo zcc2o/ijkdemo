@@ -47,5 +47,10 @@
 	<string>pho</string>
 	<key>NSCameraUsageDescription</key>
 	<string>cam</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>

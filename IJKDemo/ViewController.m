@@ -9,6 +9,7 @@
 #import "ViewController.h"
 //#import <NIMSDK/NIMSDK.h>
 #import "VULNIMLivingViewController.h"
+#import "ZCCTeacherCameraViewController.h"
 @interface ViewController ()
 
 @end
@@ -25,6 +26,13 @@
     [jumpBtn setBackgroundColor:[UIColor blueColor]];
     [jumpBtn addTarget:self action:@selector(jumpBtnClicked) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:jumpBtn];
+    
+    UIButton *jumpZFBtn = [[UIButton alloc] initWithFrame:CGRectMake((VULSCREEN_WIDTH - 200) / 2, 200, 200, 50)];
+    [jumpZFBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [jumpZFBtn setTitle:@"跳转" forState:UIControlStateNormal];
+    [jumpZFBtn setBackgroundColor:[UIColor blueColor]];
+    [jumpZFBtn addTarget:self action:@selector(jumpZFBtnClicked) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:jumpZFBtn];
 }
 
 - (void)jumpBtnClicked{
@@ -42,7 +50,11 @@
     
     VULNIMLivingViewController *livingVC = [[VULNIMLivingViewController alloc] init];
     [self presentViewController:livingVC animated:YES completion:nil];
-    
+}
+
+- (void)jumpZFBtnClicked {
+    ZCCTeacherCameraViewController *teacherVC = [[ZCCTeacherCameraViewController alloc] init];
+    [self presentViewController:teacherVC animated:YES completion:nil];
 }
 
 @end

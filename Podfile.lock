@@ -14,17 +14,25 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
+  - TZImagePickerController (3.1.6)
 
 DEPENDENCIES:
   - AFNetworking
+  - Masonry
+  - TZImagePickerController
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - Masonry
+    - TZImagePickerController
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TZImagePickerController: 733aa6fd217f87c61656764f8e76b2137b6c8f47
 
-PODFILE CHECKSUM: 9112603940aed7ebc31dee9b1962876946d2867c
+PODFILE CHECKSUM: 93a48e5b5881d1b9583986304f9dbdd34c76fcd2
 
 COCOAPODS: 1.6.0.beta.1

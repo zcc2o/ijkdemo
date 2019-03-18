@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		510331E621C361D400026FF9 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510331E521C361D300026FF9 /* IJKMediaFramework.framework */; };
 		510331E721C361D400026FF9 /* IJKMediaFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 510331E521C361D300026FF9 /* IJKMediaFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5132CBB021DEEB75003706D4 /* ZCCTeacherCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5132CBAF21DEEB75003706D4 /* ZCCTeacherCameraViewController.m */; };
+		5132CBB321DEED62003706D4 /* VULReviewControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5132CBB221DEED62003706D4 /* VULReviewControlView.m */; };
+		5132CBB621DEF33C003706D4 /* NSString+EXTENSION.m in Sources */ = {isa = PBXBuildFile; fileRef = 5132CBB421DEF33C003706D4 /* NSString+EXTENSION.m */; };
 		5162C40A21BF9F3E00C76CB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5162C40921BF9F3E00C76CB8 /* AppDelegate.m */; };
 		5162C40D21BF9F3E00C76CB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5162C40C21BF9F3E00C76CB8 /* ViewController.m */; };
 		5162C41021BF9F3E00C76CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5162C40E21BF9F3E00C76CB8 /* Main.storyboard */; };
@@ -77,6 +80,12 @@
 
 /* Begin PBXFileReference section */
 		510331E521C361D300026FF9 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		5132CBAE21DEEB75003706D4 /* ZCCTeacherCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCCTeacherCameraViewController.h; sourceTree = "<group>"; };
+		5132CBAF21DEEB75003706D4 /* ZCCTeacherCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCCTeacherCameraViewController.m; sourceTree = "<group>"; };
+		5132CBB121DEED62003706D4 /* VULReviewControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VULReviewControlView.h; sourceTree = "<group>"; };
+		5132CBB221DEED62003706D4 /* VULReviewControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VULReviewControlView.m; sourceTree = "<group>"; };
+		5132CBB421DEF33C003706D4 /* NSString+EXTENSION.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EXTENSION.m"; sourceTree = "<group>"; };
+		5132CBB521DEF33C003706D4 /* NSString+EXTENSION.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EXTENSION.h"; sourceTree = "<group>"; };
 		5162C40521BF9F3E00C76CB8 /* IJKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IJKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5162C40821BF9F3E00C76CB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5162C40921BF9F3E00C76CB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -216,6 +225,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5132CB5521DEEB41003706D4 /* 测试ZF播放视频 */ = {
+			isa = PBXGroup;
+			children = (
+				5132CBAE21DEEB75003706D4 /* ZCCTeacherCameraViewController.h */,
+				5132CBAF21DEEB75003706D4 /* ZCCTeacherCameraViewController.m */,
+				5132CBB121DEED62003706D4 /* VULReviewControlView.h */,
+				5132CBB221DEED62003706D4 /* VULReviewControlView.m */,
+			);
+			path = "测试ZF播放视频";
+			sourceTree = "<group>";
+		};
 		5162C3FC21BF9F3E00C76CB8 = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +258,8 @@
 		5162C40721BF9F3E00C76CB8 /* IJKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5132CB5521DEEB41003706D4 /* 测试ZF播放视频 */,
+				51DCA60B21D4BDE1001C59E5 /* 测试masonry动态变化 */,
 				5162C40821BF9F3E00C76CB8 /* AppDelegate.h */,
 				5162C40921BF9F3E00C76CB8 /* AppDelegate.m */,
 				5162C40B21BF9F3E00C76CB8 /* ViewController.h */,
@@ -262,6 +284,8 @@
 				5162C4E621C0F78B00C76CB8 /* YYTimer.m */,
 				5162C4E421C0F44800C76CB8 /* VULVideoStudyRecordTimer.h */,
 				5162C4E321C0F44600C76CB8 /* VULVideoStudyRecordTimer.m */,
+				5132CBB521DEF33C003706D4 /* NSString+EXTENSION.h */,
+				5132CBB421DEF33C003706D4 /* NSString+EXTENSION.m */,
 				5162C46F21BFA54200C76CB8 /* ZFPlayer */,
 				5162C46C21BFA38500C76CB8 /* UIView+EXTENSION.h */,
 				5162C46D21BFA38500C76CB8 /* UIView+EXTENSION.m */,
@@ -380,6 +404,13 @@
 			path = KSYMediaPlayer;
 			sourceTree = "<group>";
 		};
+		51DCA60B21D4BDE1001C59E5 /* 测试masonry动态变化 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "测试masonry动态变化";
+			sourceTree = "<group>";
+		};
 		6101258AF9DBC9E7C58C90A2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -401,6 +432,7 @@
 				5162C40221BF9F3E00C76CB8 /* Frameworks */,
 				5162C40321BF9F3E00C76CB8 /* Resources */,
 				510331E821C361D400026FF9 /* Embed Frameworks */,
+				0FC3775F5AE2155432B0B6B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -458,6 +490,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0FC3775F5AE2155432B0B6B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IJKDemo/Pods-IJKDemo-resources.sh",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IJKDemo/Pods-IJKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BB04436E2F647BD3F6AE42CC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -511,13 +565,16 @@
 				5162C4BB21BFA54200C76CB8 /* ZFUtilities.m in Sources */,
 				5162C40A21BF9F3E00C76CB8 /* AppDelegate.m in Sources */,
 				5162C4BA21BFA54200C76CB8 /* ZFAVPlayerManager.m in Sources */,
+				5132CBB021DEEB75003706D4 /* ZCCTeacherCameraViewController.m in Sources */,
 				5162C4C321BFA54200C76CB8 /* ZFSmallFloatControlView.m in Sources */,
 				5162C4BF21BFA54200C76CB8 /* ZFNetworkSpeedMonitor.m in Sources */,
 				5162C4B121BFA54200C76CB8 /* ZFPlayerLogManager.m in Sources */,
 				5162C4BE21BFA54200C76CB8 /* ZFLandScapeControlView.m in Sources */,
 				5162C4BC21BFA54200C76CB8 /* UIView+ZFFrame.m in Sources */,
 				5162C4E521C0F44800C76CB8 /* VULVideoStudyRecordTimer.m in Sources */,
+				5132CBB621DEF33C003706D4 /* NSString+EXTENSION.m in Sources */,
 				5162C4AF21BFA54200C76CB8 /* ZFPlayerController.m in Sources */,
+				5132CBB321DEED62003706D4 /* VULReviewControlView.m in Sources */,
 				5162C4C721BFA54200C76CB8 /* UIImageView+ZFCache.m in Sources */,
 				5162C4C621BFA54200C76CB8 /* ZFPortraitControlView.m in Sources */,
 			);
